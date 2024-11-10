@@ -76,7 +76,7 @@
             <artifactId>log4j-slf4j-impl</artifactId>
             <version>2.24.1</version>
         </dependency>
-        
+
         <!-- Spring Boot Test -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
@@ -97,6 +97,15 @@
             <version>4.0.0</version> <!-- Adjust version as needed -->
             <scope>test</scope>
         </dependency>
+        <dependency>
+            <groupId>io.micrometer</groupId>
+            <artifactId>micrometer-registry-prometheus</artifactId>
+        </dependency>
+
+
+
+
+
 
 
     </dependencies>
